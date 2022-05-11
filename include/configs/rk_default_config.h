@@ -76,8 +76,8 @@
 #undef CONFIG_CMD_ECHO
 #undef CONFIG_CMD_REGINFO
 #undef CONFIG_CMDLINE_EDITING
-#undef CONFIG_CMD_LOADB
-#undef CONFIG_CMD_LOADS
+#define CONFIG_CMD_LOADB
+#define CONFIG_CMD_LOADS
 #undef CONFIG_CMD_IMI
 #undef CONFIG_CMD_EDITENV
 #undef CONFIG_CMD_RUN
@@ -304,7 +304,7 @@
 
 
 /* rk io command tool */
-#undef CONFIG_RK_IO_TOOL
+#define CONFIG_RK_IO_TOOL
 
 
 /* rockusb */
